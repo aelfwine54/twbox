@@ -1,13 +1,6 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/python
 
-"""Premier exemple avec Tkinter.
-
-On crée une fenêtre simple qui souhaite la bienvenue à l'utilisateur.
-
-"""
-
-# On importe Tkinter
 import Tkinter as tk
 import pyperclip as clipboard
 
