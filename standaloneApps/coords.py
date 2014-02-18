@@ -24,10 +24,10 @@ class Interface(tk.Frame):
 
 
         self.userInput = tk.Text(self.cadreHaut, width=60, height=20)
-        self.userInput.pack(padx=5, pady=5)
+        self.userInput.pack(padx=5, pady=7)
 
         self.convertBtn = tk.Button(self.cadreHaut, text='To BBcode', command=self.toBBcode)
-        self.convertBtn.pack()
+        self.convertBtn.pack(pady=7)
 
     def initBas(self,fenetre):
         self.cadreBas = tk.Frame(fenetre, height=350, borderwidth=1,background='red')
@@ -38,7 +38,7 @@ class Interface(tk.Frame):
         self.answer.config(state=tk.DISABLED)
 
         self.clipboardBtn = tk.Button(self.cadreBas, text='To clipboard', command=self.toClipboard)
-        self.clipboardBtn.pack()
+        self.clipboardBtn.pack(pady=7)
 
     def toBBcode(self):
         texte = self.userInput.get(1.0, tk.END)
