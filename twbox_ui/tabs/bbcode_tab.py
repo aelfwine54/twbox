@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-#!/usr/bin/python
-
 
 # Copyright 2014 Frederic Bergeron. All rights reserved.
 # 
@@ -29,9 +27,8 @@
 # or implied, of Frederic Bergeron.
 
 import Tkinter as tk
-#import twbox
-#from twbox.thirdparty import pyperclip as clipboard
-#from twbox.BBcode import *
+from thirdparty import pyperclip as clipboard
+from twbox.utils.BBcode import *
 
 class BBcodeTab(tk.Frame):
 

@@ -42,7 +42,6 @@
 # 1.2 Use the platform module to help determine OS.
 # 1.3 Changed ctypes.windll.user32.OpenClipboard(None) to ctypes.windll.user32.OpenClipboard(0), after some people ran into some TypeError
 
-#!/usr/bin/python
 import platform, os
 
 def winGetClipboard():
